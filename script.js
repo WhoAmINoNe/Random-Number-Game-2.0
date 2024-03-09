@@ -58,7 +58,7 @@ IamAgree.addEventListener("click", () => {
 ok.addEventListener("click", () => {
   numberOfAttempts--;
 
-  console.log(random);
+
   if (numberOfAttempts == 0 && random != display.textContent) {
     alertFun(
       `<strong>You lose!</strong> Siz men oylagan soni topa olmadiz, men oylagan son ${random}`,
